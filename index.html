@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Películas y Series</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buscador de Películas y Series</h1>
+  
+  <label for="tipo">Selecciona tipo:</label>
+  <select id="tipo">
+    <option value="peliculas">Películas</option>
+    <option value="series">Series</option>
+  </select>
+  
+  <br><br>
+  
+  <input id="buscador" type="text" placeholder="Escribe el título..." maxlength="100">
+  <button id="buscar">Buscar</button>
+  
+  <ul id="resultados"></ul>
+  
+  <script src="main.js"></script>
+</body>
+</html>
